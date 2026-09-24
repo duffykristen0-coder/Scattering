@@ -11,7 +11,7 @@ Verify masks and calibration visually before interpreting orientation, spacing, 
 
 unified_fit.py — Fits SAXS data using the multilevel Beaucage Unified model. It supports single file and batch processing, adjustable parameter bounds, fixed or fitted parameters, mass-fractal levels, hierarchical cutoffs, correlation corrections, and CSV/plot output.
 
--Accepted input files are `.dat`, `.txt`, or `.csv` files containing: q  intensity  [sigma]
+- Accepted input files are `.dat`, `.txt`, or `.csv` files containing: q  intensity  [sigma]
 -The uncertainty column is optional. Whitespace- and comma-separated files are supported, and text headers or         comment lines are skipped. Outputs include:
 - A fit plot and residual plot for each sample
 - A per-sample CSV containing the data, total fit, residual, and individual level contributions
